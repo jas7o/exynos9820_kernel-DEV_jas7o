@@ -39,6 +39,7 @@
 *.symtypes
 *.tar
 *.xz
+*.so
 Module.symvers
 modules.builtin
 
@@ -54,6 +55,8 @@ modules.builtin
 /vmlinuz
 /System.map
 /Module.markers
+/out
+/toolchain
 
 #
 # RPM spec file (make rpm-pkg)
@@ -64,6 +67,7 @@ modules.builtin
 # Debian directory (make deb-pkg)
 #
 /debian/
+/out
 
 #
 # tar directory (make tar*-pkg)
